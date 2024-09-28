@@ -1,0 +1,23 @@
+{
+    "news": [
+      {
+        "title": "BMW M4 GT3 Wins the Championship",
+        "date": "2024-09-20",
+        "description": "The BMW M4 GT3 secures a thrilling victory in the championship race, showcasing its unparalleled performance and engineering.",
+        "image": "../images/bmw-photo-1.jpg"
+      },
+      {
+        "title": "New BMW M2 Debuts",
+        "date": "2024-08-15",
+        "description": "The all-new BMW M2 makes its grand debut, featuring cutting-edge technology and breathtaking design.",
+        "image": "../images/bmw-photo-2.jpg"
+      },
+      {
+        "title": "BMW M Electric Revolution",
+        "date": "2024-07-30",
+        "description": "BMW M unveils its first fully electric performance car, marking the beginning of a new era for the M division.",
+        "image": "../images/bmw-photo-3.jpg"
+      }
+    ]
+  }
+  

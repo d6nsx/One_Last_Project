@@ -1,0 +1,55 @@
+{
+    "models": [
+      {
+        "name": "BMW M2 Coupe",
+        "description": "High-performance sports car with an inline 6-cylinder engine.",
+        "image": "../images/bmw-m2.png"
+      },
+      {
+        "name": "BMW M3 Sedan",
+        "description": "Legendary sedan with powerful performance and precise handling.",
+        "image": "../images/bmw-m3.png"
+      },
+      {
+        "name": "BMW M4 Coupe",
+        "description": "Performance coupe with aggressive styling and race-inspired features.",
+        "image": "../images/bmw-m4.png"
+      },
+      {
+        "name": "BMW M5 Sedan",
+        "description": "Luxury sedan with a V8 engine and cutting-edge technology.",
+        "image": "../images/bmw-m5.png"
+      },
+      {
+        "name": "BMW M8",
+        "description": "High-performance SUV with the heart of a sports car.",
+        "image": "../images/bmw-m8.png"
+      },
+      {
+        "name": "BMW M8 Gran Coupe",
+        "description": "Dynamic and powerful SUV coupe with advanced M engineering.",
+        "image": "../images/bmw-m8-gran-coupe.png"
+      },
+      {
+        "name": "BMW X5 M",
+        "description": "Dynamic and powerful SUV coupe with advanced M engineering.",
+        "image": "../images/bmw-x5-m.png"
+      },
+      {
+        "name": "BMW X6 M",
+        "description": "Dynamic and powerful SUV coupe with advanced M engineering.",
+        "image": "../images/bmw-x6-m.png"
+      },
+      {
+        "name": "BMW X7 M",
+        "description": "Dynamic and powerful SUV coupe with advanced M engineering.",
+        "image": "../images/bmw-x7.png"
+      },
+      {
+        "name": "BMW XM",
+        "description": "Dynamic and powerful SUV coupe with advanced M engineering.",
+        "image": "../images/bmw-xm.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.frame-text {
+    max-width: 50%;
+}
+
+.frame-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.frame-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 600px;
+    height: auto;
+}
+
+.active {
+    display: block;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.video-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    margin-top: 100px;
+}
+
+.video-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.video-section video {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-section p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #f4f4f4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-left: -50px;
+}
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        display: none;
+        background-color: #000;
+    }
+
+    .navbar ul.show {
+        display: flex;
+    }
+}
